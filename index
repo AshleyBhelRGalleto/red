@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img src ="skit/skibidi.gif" alt="ashley">
+
+<br><br>
+
+<button onclick="changeImg()">change</button>
+<button onclick="revertImg()">revert</button>
+
+<script>
+
+	function changeImg () {
+	
+	document.getElementById('image').src = 'skit/boy.avif';	}
+	
+	function revertImg () {
+	
+    document.getElementById('image').src = 'skit/skibidi.gif';
+	}
+	
+</script>
+
+</body>
+</html>
+
